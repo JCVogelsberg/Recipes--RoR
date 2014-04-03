@@ -1,0 +1,13 @@
+<h1><u><%= @recipe.name %></u></h1>
+
+<br>
+
+<p><a href="/recipes/<%= @recipe.id %>/edit">Edit this Recipe</a></p>
+
+<p><a href="/recipes/<%= @recipe.id %>"
+      data-confirm="Are you Sure?"
+      data-method="delete"
+      rel="nofolow">Delete this Recipe</a><p>
+
+
+<p><a href="/recipes">Return To Recipe Index</a></p>

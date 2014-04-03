@@ -1,0 +1,19 @@
+<h1><i> Recipes </i></h1>
+<br>
+<br>
+<p><a href="/recipes/new"><i>Submit a New Recipe</i></a></p>
+<br>
+<ol>
+  <% @recipes.each do |recipe| %>
+    <li><a href="/recipes/<%= recipe.id %>"><%= recipe.name %> --- <%= recipe.stars %> Stars</a></li><br>
+  <% end %>
+</ol>
+
+<br>
+<br>
+
+
+
+
+
+
