@@ -1,19 +1,22 @@
-<h1><i> Recipes </i></h1>
+<h1><i><u> Recipes </u></i></h1>
 <br>
 <br>
 <p><a href="/recipes/new"><i>Submit a New Recipe</i></a></p>
+<p><a href="/tags/new"><i>Submit a New Tag</i></a></p>
+<p><a href="/recipes/edit"><i>Tag a current Recipe</i></a></p>
+<p><a href="/tags/"><i>Display Current Tags </i></a></p>
+
+
 <br>
 <ol>
-  <% @recipes.each do |recipe| %>
-    <li><a href="/recipes/<%= recipe.id %>"><%= recipe.name %> --- <%= recipe.stars %> Stars</a></li><br>
+  <% @recipe.each do |recipe| %>
+    <li><a href="/recipes/<%= recipe.id %>">
+      <%= recipe.name %> ---
+      <%= recipe.stars %> Stars ---
+      <%= @tag.each {|tag| tag.name} %>
+    </a></li><br>
   <% end %>
 </ol>
 
 <br>
 <br>
-
-
-
-
-
-

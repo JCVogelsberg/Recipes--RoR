@@ -1,0 +1,12 @@
+<h1><u><%= @tag.name %></u></h1>
+
+<br>
+
+<p><a href="/tags/<%= @tag.id %>/edit">Edit this Recipe</a></p>
+
+<p><a href="/tags/<%= @tag.id %>"
+      data-confirm="Are You Sure You Want To Delete This Tag?"
+      data-method="delete"
+      rel="nofollow">Delete this Tag</a></p>
+
+<p><a href="/tags">Return to Tag Index</a></p>

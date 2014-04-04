@@ -1,0 +1,13 @@
+<h1>Here is a list of your current tags:</h1>
+
+<br>
+
+<ol>
+  <% @tag.each do |tag| %>
+    <li><a href="/tags/<%= tag.id %>"><%= tag.name %></a>
+    </li>
+    <br>
+  <% end %>
+</ol>
+
+<p><a href="/recipes"><i>Return To Recipe Index</i></a></p>

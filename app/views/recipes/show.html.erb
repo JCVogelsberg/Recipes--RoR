@@ -2,10 +2,12 @@
 
 <br>
 
+<p><%= @recipe.how_to_make %></p>
+
 <p><a href="/recipes/<%= @recipe.id %>/edit">Edit this Recipe</a></p>
 
 <p><a href="/recipes/<%= @recipe.id %>"
-      data-confirm="Are you Sure?"
+      data-confirm="Are You Sure You Want To Delete This Recipe?"
       data-method="delete"
       rel="nofolow">Delete this Recipe</a><p>
 
