@@ -1,18 +1,13 @@
 Recipes
-=======
+===
 
-By: J. Vogelsberg
-Epicodus, Portland, OR
-3 April 2014
+Day 4 of Ruby on Rails, a site for sharing recipes.
 
-Day 4 of Ruby on Rails, starting to see how all the pieces fit together, and interconnect.
-
---------------------------------------
-Let's make a site for sharing recipes.
+* * *
 
 -As a contributor, I want to post new recipes, so that I can share them with others.
 
--As a contributor, I want to tag my recipes, so that they are easier to find. (Hint: a recipe has many tags, and a tag has many recipes. Another hint: don't be afraid to create several actions for this: one page for creating tags, one page for creating recipes, one page for adding tags to a recipe.)
+-As a contributor, I want to tag my recipes, so that they are easier to find. (Hint: a recipe has many tags, and a tag has many recipes. 
 
 -As a cook, I want to choose a tag and see what recipes have that tag.
 
@@ -20,6 +15,6 @@ Let's make a site for sharing recipes.
 
 -As a cook, I want to see recipes ordered by the number of stars they have, so that I can focus on the best ones.
 
--As a cook, I want to see some new recipes mixed in with the highest-rated ones, so that I can give new recipes with no or few ratings a try. (Hint: make a method that creates an arbitrary weighting between the average number of stars a recipe has, and how old it is.)
+-As a cook, I want to see some new recipes mixed in with the highest-rated ones, so that I can give new recipes with no or few ratings a try. 
 
--As a cook, I want to search through recipes, so that I can find something with a particular ingredient or word. (Hint: use the Textacular gem.)
+-As a cook, I want to search through recipes, so that I can find something with a particular ingredient or word. (use Textacular gem.)
